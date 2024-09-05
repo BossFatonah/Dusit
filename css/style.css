@@ -580,3 +580,10 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.animal-item .img-fluid {
+    width: 100%;
+    height: 300px; /* กำหนดความสูงที่เหมาะสม */
+    object-fit: cover; /* ให้รูปภาพถูกครอบในกรอบเพื่อให้ขนาดเท่ากัน */
+}
+
